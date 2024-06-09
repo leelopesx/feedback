@@ -2,7 +2,7 @@ import { ButtonContainer, CardContainer, IconContainer, ResultContainer } from "
 
 import iconStarImg from "../assets/icon-star.svg"
 import thankYouImg from "../assets/illustration-thank-you.svg"
-import { useState } from "react";
+import { useState } from "react"
 
 export function Home() {
   const [mostrarResultado, setMostrarResultado] = useState(false)
